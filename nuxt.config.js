@@ -29,12 +29,16 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/moment',
+ 
+    // With options
+    ['@nuxtjs/moment', { /* module options */ }]
   ],
   /*
   ** Nuxt.js modules

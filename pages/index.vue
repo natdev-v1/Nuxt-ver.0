@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        Nuxt-smile-Jogging
+        {{$moment()}}
       </h1>
       <h2 class="subtitle">
         smile
