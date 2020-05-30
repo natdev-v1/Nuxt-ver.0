@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        <button v-on:click="Login"></button>
+        <button class="test-css" v-on:click="Login">5555555</button>
       </h1>
       <h2 class="subtitle">
         smile
@@ -43,7 +43,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.test-css{
+  background-color: $red;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
