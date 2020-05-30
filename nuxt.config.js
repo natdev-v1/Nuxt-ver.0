@@ -30,6 +30,7 @@ export default {
   */
   plugins: [
     '@/plugins/antd-ui',
+    '@/plugins/api/api-service'
   ],
   /*
   ** Nuxt.js dev-modules

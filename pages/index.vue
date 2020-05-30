@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        {{$moment()}}
+        <button v-on:click="Login"></button>
       </h1>
       <h2 class="subtitle">
         smile
@@ -34,6 +34,11 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  methods:{
+   async Login(){
+        await (this.$apiService()).login('admin','password')
+    }
   }
 }
 </script>
