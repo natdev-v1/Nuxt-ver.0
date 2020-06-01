@@ -46,7 +46,7 @@ export default {
 		baseURL: 'http://baiwadev.thddns.net:9440/CTBackend'
 	},
 	toast: {
-		position: 'top-right',
+		position: 'top-center',
 		duration: 2000
 	},
 	auth: {
