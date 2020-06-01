@@ -43,7 +43,7 @@ export default {
   */
 	modules: [ '@nuxtjs/style-resources', '@nuxtjs/auth', '@nuxtjs/axios', '@nuxtjs/toast' ],
 	axios: {
-		baseURL: 'http://baiwadev.thddns.net:9440/CTBackend'
+		baseURL: ''
 	},
 	toast: {
 		position: 'top-center',
