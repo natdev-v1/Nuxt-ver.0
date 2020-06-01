@@ -141,6 +141,6 @@ export default {
   }
 }
 .ant-input {
-  height: 50px;
+  height: 45px;
 }
 </style>
