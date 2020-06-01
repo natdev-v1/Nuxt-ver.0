@@ -11,6 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/toast": "^3.3.0",
     "ant-design-vue": "^1.1.10",
     "apisauce": "^1.1.1",
     "nuxt": "^2.0.0"
